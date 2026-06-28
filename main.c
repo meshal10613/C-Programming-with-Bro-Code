@@ -54,6 +54,12 @@ int main()
 	// z++;
 	// z--;
 
+	//* Augmented Assignment Operators
+	// z+=3;
+	// z-=3;
+	// z*=3;
+	// z/=3;
+
 	// printf("%.2f", z);
 
 	return 0;
