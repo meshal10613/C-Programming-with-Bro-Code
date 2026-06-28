@@ -7,29 +7,54 @@ int main()
 	// printf("Hello World! \n");
 
 	//* Variable in C
-	int age = 21; // Integer
+	// int age = 21; // Integer
 	// printf("I'm %d years old \n", age);
 
-	float gpa = 3.8; // Float
+	// float gpa = 3.8; // Float
 	// printf("You're GPA is %.1f \n", gpa);
 
-	double pi = 3.14159265358979; // Double
+	// double pi = 3.14159265358979; // Double
 	// printf("The value of pi is %lf \n", pi);
 
-	char grade = 'A'; // Char {max 1 char or single character}
+	// char grade = 'A'; // Char {max 1 char or single character}
 	// printf("You're grade is %c \n", grade);
 
-	char name[] = "Syed Mohiuddin Meshal"; // Array of character
-	char email[] = "syedmohiuddinmeshal@gmail.com";
+	// char name[] = "Syed Mohiuddin Meshal"; // Array of character
+	// char email[] = "syedmohiuddinmeshal@gmail.com";
 	// printf("My name is %s \n", name);
 
-	bool isActive = false; // Boolean {true or false}
+	// bool isActive = false; // Boolean {true or false}
 	// printf("%d", isActive); // 1 mean true | 0 mean false
-	if(isActive){
-		printf("You're online");
-	}else {
-		printf("You're offline");
-	}
+	// if(isActive){
+	// 	printf("You're online");
+	// }else {
+	// 	printf("You're offline");
+	// }
+
+	//* Format Specifier
+	// width
+	// int num1 = 1;
+	// int num2 = -10;
+	// int num3 = 100;
+
+	// printf("%+d \n", num1);
+	// printf("%+d \n", num2);
+	// printf("%+d \n", num3);
+
+	//* Arithmetic Operators (=, +, -, *, /, %, ++, --)
+	// int x = 2;
+	// int y = 3;
+	// float z = 0;
+
+	// z = x + y;
+	// z = x - y;
+	// z = x * y;
+	// z = x / y;
+	// z = x % y;
+	// z++;
+	// z--;
+
+	// printf("%.2f", z);
 
 	return 0;
 }
