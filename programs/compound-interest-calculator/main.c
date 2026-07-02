@@ -10,10 +10,14 @@ int main()
 	printf("Compound Interest Calculator \n");
 	printf("Enter the principal amount: ");
 	scanf("%lf", &principal);
+
 	printf("Enter the annual interest rate (as a decimal): ");
 	scanf("%lf", &rate);
+	rate /= 100; // Convert percentage to decimal
+
 	printf("Enter the number of years: ");
 	scanf("%d", &years);
+
 	printf("Enter the number of times interest is compounded per year: ");
 	scanf("%d", &timesCompounded);
 
